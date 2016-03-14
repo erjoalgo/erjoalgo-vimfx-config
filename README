@@ -1,0 +1,9 @@
+this was forked from https://github.com/lydell/VimFx-config/
+
+1. about:config
+
+2. set xpinstall.{signatures,whitelist}.required to false
+
+3. ln -s <path-to-VimFx-config@vimfx.org> ~/.mozilla/firefox/<profile>/extensions/
+
+4. restart firefox. check cmd line errors or browser console
