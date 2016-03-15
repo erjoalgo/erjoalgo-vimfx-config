@@ -6,4 +6,6 @@ this was forked from https://github.com/lydell/VimFx-config/
 
 3. ln -s <path-to-VimFx-config@vimfx.org> ~/.mozilla/firefox/<profile>/extensions/
 
-4. restart firefox. check cmd line errors or browser console
+4. ln -s <path-to-userChrome.css> ~/.mozilla/firefox/<profile>/chrome/
+
+5. restart firefox. check cmd line errors or browser console
