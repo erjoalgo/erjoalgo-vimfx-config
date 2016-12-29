@@ -1,4 +1,4 @@
-vimfx.set('hint_chars', '1234qwerasdfgzxcvb')
+vimfx.set('hints.chars', '1234qwerasdfgzxcvb')
 
 let map = (shortcuts, command, custom=false) => {
   vimfx.set(`${custom ? 'custom.' : ''}mode.normal.${command}`, shortcuts)
