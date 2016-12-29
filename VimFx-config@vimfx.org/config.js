@@ -39,3 +39,6 @@ map(',', 'scroll_to_top')
 map('<a-f1>', 'history_back')
 map('<a-f2>', 'history_forward')
 map('t', 'tab_new')
+
+map('<f1>', 'tab_select_previous')
+map('<f2>', 'tab_select_next')
