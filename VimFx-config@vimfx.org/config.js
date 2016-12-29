@@ -42,3 +42,5 @@ map('t', 'tab_new')
 
 map('<f1>', 'tab_select_previous')
 map('<f2>', 'tab_select_next')
+map('<f4>', 'tab_close')
+map('<s-f4>', 'tab_restore')
