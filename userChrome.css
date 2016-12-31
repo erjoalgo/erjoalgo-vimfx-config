@@ -65,3 +65,12 @@
 .tabbrowser-tab[unread][VimFx-visited]:not(#override) {
     font-weight: bold !important;
 }
+
+tab[selected=”true”] {
+	color: blue !important;
+	font-weight:bold
+}
+
+tab {
+    -moz-appearance: none !important;
+}
