@@ -40,7 +40,11 @@ map('<a-f1>', 'history_back')
 map('<a-f2>', 'history_forward')
 map('t', 'tab_new')
 
-map('<f1>', 'tab_select_previous')
-map('<f2>', 'tab_select_next')
 map('<f4>', 'tab_close')
 map('<s-f4>', 'tab_restore')
+
+map('<f1>', 'tab_select_previous')
+map('<f2>', 'tab_select_next')
+
+map('<s-f1>', 'tab_move_backward')
+map('<s-f2>', 'tab_move_forward')
