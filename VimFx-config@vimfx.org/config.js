@@ -13,7 +13,7 @@ function disable_cmd ( cmd )	{
 [
     "reload_all",
     "reload_all_force", 
-    "stop_all", 
+    "stop_all",
     "find_highlight_all", 
     "scroll_up", 
     "scroll_down"
