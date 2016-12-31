@@ -37,15 +37,15 @@ map('z', 'follow_multiple')
 map('.', 'scroll_to_bottom')
 map(',', 'scroll_to_top')
 
-map('<a-f1>', 'history_back')
-map('<a-f2>', 'history_forward')
+map('<force><a-f1>', 'history_back')
+map('<force><a-f2>', 'history_forward')
 map('t', 'tab_new')
 
-map('<f4>', 'tab_close')
-map('<s-f4>', 'tab_restore')
+map('<force><f4>', 'tab_close')
+map('<force><s-f4>', 'tab_restore')
 
-map('<f1>', 'tab_select_previous')
-map('<f2>', 'tab_select_next')
+map('<force><f1>', 'tab_select_previous')
+map('<force><f2>', 'tab_select_next')
 
-map('<s-f1>', 'tab_move_backward')
-map('<s-f2>', 'tab_move_forward')
+map('<force><s-f1>', 'tab_move_backward')
+map('<force><s-f2>', 'tab_move_forward')
