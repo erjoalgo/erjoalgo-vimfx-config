@@ -6,4 +6,8 @@ this was forked from https://github.com/lydell/VimFx-config/
 
 - ln -s <path-to-userChrome.css> ~/.mozilla/firefox/<profile>/chrome/
 
+<<<<<<< HEAD
 - restart firefox. check cmd line errors or browser console
+
+- gen command list from commands.coffee
+	grep 'commands[.].*?=' -Po commands.coffee |sed 's/commands.([a-z_]+).*/\1/g' -E
