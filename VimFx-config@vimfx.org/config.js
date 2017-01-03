@@ -15,9 +15,13 @@ function disable_cmd ( cmd )	{
     "reload_all_force",
     "stop_all",
     "stop",
-    "find_highlight_all",
-    "scroll_up",
-    "scroll_down"
+    "find_highlight_all", 
+    "scroll_up", 
+    "scroll_down",
+    "scroll_page_down",
+    "scroll_page_up",
+    "paste_and_go",
+    "paste_and_go_in_tab"
 ].map(disable_cmd);
 
 
