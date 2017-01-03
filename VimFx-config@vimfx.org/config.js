@@ -30,6 +30,8 @@ map('w', 'scroll_half_page_up')
 map('A', 'scroll_left')
 map('S', 'scroll_right')
 
+map('p', 'tab_toggle_pinned')
+
 
 map('f', 'follow')
 map('q', 'follow_in_tab')
