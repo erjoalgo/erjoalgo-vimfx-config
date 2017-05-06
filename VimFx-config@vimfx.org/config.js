@@ -12,11 +12,11 @@ function disable_cmd ( cmd )	{
 //todo write map_force to auto unbind conflicts
 [
     "reload_all",
-    "reload_all_force", 
+    "reload_all_force",
     "stop_all",
     "stop",
-    "find_highlight_all", 
-    "scroll_up", 
+    "find_highlight_all",
+    "scroll_up",
     "scroll_down"
 ].map(disable_cmd);
 
