@@ -49,3 +49,13 @@ map('<force><f2>', 'tab_select_next')
 
 map('<force><s-f1>', 'tab_move_backward')
 map('<force><s-f2>', 'tab_move_forward')
+
+// https://github.com/akhodakivskiy/VimFx/wiki/Custom-Commands
+vimfx.addCommand({
+    name: 'noscript_click_toolbar_button',
+    description: 'NoScript',
+}, ({vim}) => {
+  vim.window.document.getElementById('noscript-tbb').click()
+})
+
+map('`', 'noscript_click_toolbar_button', true)
