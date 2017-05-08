@@ -1,7 +1,7 @@
 vimfx.set('hints.chars', '1234qwerasdfgzxcvb')
 
 let map = (shortcuts, command, custom=false) => {
-  vimfx.set(`${custom ? 'custom.' : ''}mode.normal.${command}`, shortcuts)
+    vimfx.set(`${custom ? 'custom.' : ''}mode.normal.${command}`, shortcuts)
 }
 
 function disable_cmd ( cmd )	{
@@ -55,7 +55,7 @@ vimfx.addCommand({
     name: 'noscript_click_toolbar_button',
     description: 'NoScript',
 }, ({vim}) => {
-  vim.window.document.getElementById('noscript-tbb').click()
+    vim.window.document.getElementById('noscript-tbb').click()
 })
 
 map('`', 'noscript_click_toolbar_button', true)
